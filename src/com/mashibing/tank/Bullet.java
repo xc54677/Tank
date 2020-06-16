@@ -11,7 +11,8 @@ public class Bullet {
 
     private static final int WIDTH = 25, HEIGHT = 25;
 
-    private int x, y;
+    private int x;
+    private int y;
     private Dir dir;
 
     private TankFrame tf;
