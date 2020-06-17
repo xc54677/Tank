@@ -14,7 +14,7 @@ import java.util.ArrayList;
  */
 public class TankFrame extends Frame {
 
-    Tank myTank = new Tank(200, 400, Dir.DOWN, this);
+    Tank myTank = new Tank(200, 400, Dir.DOWN, Group.GOOD,this);
     ArrayList<Bullet> bullets = new ArrayList<>();
     ArrayList<Tank> tanks = new ArrayList<>();
     static final int GAME_WIDTH = 800, GAME_HEIGHT = 600;
@@ -76,6 +76,7 @@ public class TankFrame extends Frame {
             tanks.get(i).paint(g);
         }
 
+        //子弹和坦克的碰撞检测
         for (int i = 0; i < bullets.size(); i++){
             for (int j = 0; j < tanks.size(); j++){
                 bullets.get(i).collideWith(tanks.get(j));
