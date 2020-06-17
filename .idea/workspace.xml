@@ -1,79 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36972c0f-3e83-4887-8a80-c8b8bf42597e" name="Default Changelist" comment="aa">
-      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-4.12-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-4.12-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-4.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mashibing/tank/ResourceMgr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/BadTank1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/BadTank2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/GoodTank1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/GoodTank2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/bulletD.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/bulletL.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/bulletR.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/bulletU.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/bulletU.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/e1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/e10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/e11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/e12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/e13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/e14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/e15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/e16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/e2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/e3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/e4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/e5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/e6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/e7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/e8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/e9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/missileLD.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/missileLU.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/missileRD.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/missileRU.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/square0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/square1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/square2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/square3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/square4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/square5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/square6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/tank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/tankD.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/tankL.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/tankLD.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/tankLU.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/tankR.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/tankRD.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/tankRU.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/tankU.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/ImageTest.java" afterDir="false" />
+    <list default="true" id="36972c0f-3e83-4887-8a80-c8b8bf42597e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tank.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/Bullet$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/Bullet$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/Bullet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/Tank$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/Tank$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/Tank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/Tank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/TankFrame$MyKeyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/TankFrame$MyKeyListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/TankFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/TankFrame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/mashibing/tank/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mashibing/tank/Bullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mashibing/tank/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mashibing/tank/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/mashibing/tank/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mashibing/tank/Tank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/mashibing/tank/TankFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mashibing/tank/TankFrame.java" afterDir="false" />
     </list>
@@ -198,7 +134,7 @@
       <updated>1592310631126</updated>
       <workItem from="1592310638743" duration="4500000" />
       <workItem from="1592315205608" duration="5488000" />
-      <workItem from="1592320856481" duration="9026000" />
+      <workItem from="1592320856481" duration="10691000" />
     </task>
     <task id="LOCAL-00001" summary="aa">
       <created>1592316702957</created>
@@ -214,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592317530250</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="给坦克和子弹加图片，让子弹在坦克正中间打出子弹，添加5个敌方坦克">
+      <created>1592402443338</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592402443338</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +179,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="aa" />
-    <option name="LAST_COMMIT_MESSAGE" value="aa" />
+    <MESSAGE value="给坦克和子弹加图片，让子弹在坦克正中间打出子弹，添加5个敌方坦克" />
+    <option name="LAST_COMMIT_MESSAGE" value="给坦克和子弹加图片，让子弹在坦克正中间打出子弹，添加5个敌方坦克" />
   </component>
 </project>

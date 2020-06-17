@@ -1,7 +1,6 @@
 package com.mashibing.tank;
 
 import java.awt.*;
-import java.nio.file.FileAlreadyExistsException;
 
 /**
  * 子弹类
@@ -18,7 +17,7 @@ public class Bullet {
 
     private TankFrame tf;
 
-    private boolean live = true;
+    private boolean living = true;
 
     public Bullet(int x, int y, Dir dir, TankFrame tf) {
         this.x = x;
@@ -28,7 +27,7 @@ public class Bullet {
     }
 
     public void paint(Graphics g) {
-        if (!live){
+        if (!living){
             tf.bullets.remove(this);
         }
 
@@ -70,7 +69,7 @@ public class Bullet {
                 break;
         }
         if (x < 0 || y < 0 || x > TankFrame.GAME_WIDTH || y > TankFrame.GAME_HEIGHT){
-            live = false;
+            living = false;
         }
     }
 
@@ -80,5 +79,18 @@ public class Bullet {
 
     public void setDir(Dir dir) {
         this.dir = dir;
+    }
+
+    public void collideWith(Tank tank) {
+        Rectangle bulletRect = new Rectangle(this.x, this.y, WIDTH, HEIGHT);
+        Rectangle tankRect = new Rectangle(tank.getX(), tank.getY(), Tank.WIDTH, Tank.HEIGHT);
+        if (bulletRect.intersects(tankRect)){
+            tank.die();
+            this.die();
+        }
+    }
+
+    private void die() {
+        this.living = false;
     }
 }
