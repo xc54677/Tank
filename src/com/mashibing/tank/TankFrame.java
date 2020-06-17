@@ -6,6 +6,7 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 /**
@@ -13,9 +14,9 @@ import java.util.ArrayList;
  */
 public class TankFrame extends Frame {
 
-    Tank myTank = new Tank(200, 200, Dir.DOWN, this);
+    Tank myTank = new Tank(200, 400, Dir.DOWN, this);
     ArrayList<Bullet> bullets = new ArrayList<>();
-
+    ArrayList<Tank> tanks = new ArrayList<>();
     static final int GAME_WIDTH = 800, GAME_HEIGHT = 600;
 
     public TankFrame() throws HeadlessException {
@@ -62,6 +63,11 @@ public class TankFrame extends Frame {
         myTank.paint(g);
         for (int i = 0; i < bullets.size(); i++){
             bullets.get(i).paint(g);
+        }
+
+        //画敌方坦克
+        for (int i = 0; i < tanks.size(); i++){
+            tanks.get(i).paint(g);
         }
     }
 
