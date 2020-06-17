@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36972c0f-3e83-4887-8a80-c8b8bf42597e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/mashibing/tank/Explode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/audio/explode.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/audio/tank_fire.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/audio/tank_move.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/audio/war1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/tank/Audio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mashibing/tank/ResourceMgr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mashibing/tank/ResourceMgr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mashibing/tank/TankFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mashibing/tank/TankFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/TankFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/TankFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/TankFrame$MyKeyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/TankFrame$MyKeyListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/TankFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/TankFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mashibing/tank/Explode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mashibing/tank/Explode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +47,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/mashibing/tank" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
@@ -52,6 +58,8 @@
       <recent name="com.mashibing.tank" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\IDEAWorkSpace\Tank\src\com\mashibing\tank" />
+      <recent name="H:\IDEAWorkSpace\Tank\src" />
       <recent name="H:\IDEAWorkSpace\Tank\images" />
       <recent name="H:\IDEAWorkSpace\Tank\src\com\mashibing" />
     </key>
@@ -69,6 +77,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Audio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.tank.Audio" />
+      <module name="Tank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.tank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mashibing.tank.Main" />
       <module name="Tank" />
@@ -112,10 +133,12 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="JUnit.ImageTest.test" />
+      <item itemvalue="Application.Audio" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Audio" />
         <item itemvalue="JUnit.ImageTest.test" />
       </list>
     </recent_temporary>
@@ -132,7 +155,7 @@
       <updated>1592310631126</updated>
       <workItem from="1592310638743" duration="4500000" />
       <workItem from="1592315205608" duration="5488000" />
-      <workItem from="1592320856481" duration="13422000" />
+      <workItem from="1592320856481" duration="15698000" />
     </task>
     <task id="LOCAL-00001" summary="aa">
       <created>1592316702957</created>
@@ -169,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592405508324</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="添加爆炸图片">
+      <created>1592406663871</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592406663871</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +224,23 @@
     <MESSAGE value="给坦克和子弹加图片，让子弹在坦克正中间打出子弹，添加5个敌方坦克" />
     <MESSAGE value="攻击敌方坦克，并加上碰撞检测，如果敌方坦克装上子弹，坦克和子弹都死" />
     <MESSAGE value="区分敌我坦克，默认己方碰撞不死，加上敌方坦克随机射击" />
-    <option name="LAST_COMMIT_MESSAGE" value="区分敌我坦克，默认己方碰撞不死，加上敌方坦克随机射击" />
+    <MESSAGE value="添加爆炸图片" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加爆炸图片" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/mashibing/tank/Audio.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/mashibing/tank/Audio.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

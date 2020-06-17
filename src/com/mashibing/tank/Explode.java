@@ -21,6 +21,7 @@ public class Explode {
         this.x = x;
         this.y = y;
         this.tf = tf;
+        new Audio("H:\\IDEAWorkSpace\\Tank\\src\\audio\\explode.wav").loop();
     }
 
     public void paint(Graphics g) {
@@ -28,5 +29,6 @@ public class Explode {
         if (step >= ResourceMgr.explodes.length){
             step = 0;
         }
+
     }
 }
