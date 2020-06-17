@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36972c0f-3e83-4887-8a80-c8b8bf42597e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/mashibing/tank/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mashibing/tank/Explode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mashibing/tank/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mashibing/tank/Bullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mashibing/tank/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mashibing/tank/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mashibing/tank/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mashibing/tank/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mashibing/tank/ResourceMgr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mashibing/tank/ResourceMgr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/mashibing/tank/TankFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mashibing/tank/TankFrame.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,6 +47,9 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="H:\IDEAWorkSpace\Tank\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mashibing.tank" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\IDEAWorkSpace\Tank\images" />
@@ -131,7 +132,7 @@
       <updated>1592310631126</updated>
       <workItem from="1592310638743" duration="4500000" />
       <workItem from="1592315205608" duration="5488000" />
-      <workItem from="1592320856481" duration="12048000" />
+      <workItem from="1592320856481" duration="13422000" />
     </task>
     <task id="LOCAL-00001" summary="aa">
       <created>1592316702957</created>
@@ -161,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592404084293</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="区分敌我坦克，默认己方碰撞不死，加上敌方坦克随机射击">
+      <created>1592405508324</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592405508324</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +193,7 @@
     <MESSAGE value="aa" />
     <MESSAGE value="给坦克和子弹加图片，让子弹在坦克正中间打出子弹，添加5个敌方坦克" />
     <MESSAGE value="攻击敌方坦克，并加上碰撞检测，如果敌方坦克装上子弹，坦克和子弹都死" />
-    <option name="LAST_COMMIT_MESSAGE" value="攻击敌方坦克，并加上碰撞检测，如果敌方坦克装上子弹，坦克和子弹都死" />
+    <MESSAGE value="区分敌我坦克，默认己方碰撞不死，加上敌方坦克随机射击" />
+    <option name="LAST_COMMIT_MESSAGE" value="区分敌我坦克，默认己方碰撞不死，加上敌方坦克随机射击" />
   </component>
 </project>
