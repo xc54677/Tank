@@ -22,6 +22,7 @@ public class Tank {
     private TankFrame tf;
 
     private Group group = Group.BAD;
+    Rectangle rect = new Rectangle();
 
     public Tank(int x, int y, Dir dir, Group group, TankFrame tf) {
         this.x = x;
@@ -29,6 +30,11 @@ public class Tank {
         this.dir = dir;
         this.tf = tf;
         this.group = group;
+
+        rect.x = this.x;
+        rect.y = this.y;
+        rect.width = WIDTH;
+        rect.height = HEIGHT;
     }
 
     public void paint(Graphics g) {
@@ -72,14 +78,19 @@ public class Tank {
             default:
                 break;
         }
+
         if (this.group == Group.BAD && random.nextInt(100) > 95) {
             this.fire();
         }
         if (this.group == Group.BAD && random.nextInt(100) > 95){
             randomDir();
         }
+        //坦克边界检测
         boundsCheck();
 
+        //update rect value
+        rect.x = this.x;
+        rect.y = this.y;
     }
 
     private void boundsCheck() {
