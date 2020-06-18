@@ -15,19 +15,20 @@ public class Explode {
     private TankFrame tf;
     private boolean living = true;
 
+    // 爆炸有16张图片合成显示，0代表从第一张图片开始绘图
     private int step = 0;
 
     public Explode(int x, int y, TankFrame tf) {
         this.x = x;
         this.y = y;
         this.tf = tf;
-        new Audio("H:\\IDEAWorkSpace\\Tank\\src\\audio\\explode.wav").loop();
+//        new Audio("H:\\IDEAWorkSpace\\Tank\\src\\audio\\explode.wav").loop();
     }
 
     public void paint(Graphics g) {
         g.drawImage(ResourceMgr.explodes[step++], x, y, null);
         if (step >= ResourceMgr.explodes.length){
-            step = 0;
+            tf.explodes.remove(this);
         }
 
     }
