@@ -1,23 +1,45 @@
 package com.mashibing.tank;
 
+import com.sun.org.apache.xerces.internal.dom.PSVIAttrNSImpl;
+
 import java.io.IOException;
 import java.util.Properties;
 
+/**
+ * @author Xiao
+ */
 public class PropertyMgr {
-    static Properties props = new Properties();
+    private static Properties props = null;
+
     static {
-        try {
-            props.load(PropertyMgr.class.getClassLoader().getResourceAsStream("config"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
     }
+
+    private PropertyMgr(){
+    }
+
+    public static Properties getProps(){
+        if (props == null){
+            props = new Properties();
+            try {
+                props.load(PropertyMgr.class.getClassLoader().getResourceAsStream("config"));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return props;
+    }
+
 
     public static Object get(String key){
         if (props == null){
             return null;
         }
         return props.get(key);
+    }
+
+    public static void main(String[] args) {
+        System.out.println(PropertyMgr.getProps().get("initTankCount"));
     }
 
 }
