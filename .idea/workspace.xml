@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36972c0f-3e83-4887-8a80-c8b8bf42597e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/mashibing/tank/ImageUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/Bullet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/Tank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/Tank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/TankFrame$MyKeyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/TankFrame$MyKeyListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/TankFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/TankFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mashibing/tank/ResourceMgr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mashibing/tank/ResourceMgr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mashibing/tank/TankFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mashibing/tank/TankFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mashibing/tank/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mashibing/tank/Tank.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +152,7 @@
       <workItem from="1592310638743" duration="4500000" />
       <workItem from="1592315205608" duration="5488000" />
       <workItem from="1592320856481" duration="15922000" />
-      <workItem from="1592451112406" duration="7191000" />
+      <workItem from="1592451112406" duration="10484000" />
     </task>
     <task id="LOCAL-00001" summary="aa">
       <created>1592316702957</created>
@@ -203,7 +203,28 @@
       <option name="project" value="LOCAL" />
       <updated>1592409008240</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="优化美化，用一张图片替代四个方向的图片">
+      <created>1592486390522</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592486390522</updated>
+    </task>
+    <task id="LOCAL-00009" summary="调整坦克自由发射和自由移动的频率，调整爆炸的位置">
+      <created>1592488010223</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1592488010223</updated>
+    </task>
+    <task id="LOCAL-00010" summary="调整了好坦克和坏坦克的图片区分">
+      <created>1592488673320</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1592488673320</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +251,10 @@
     <MESSAGE value="区分敌我坦克，默认己方碰撞不死，加上敌方坦克随机射击" />
     <MESSAGE value="添加爆炸图片" />
     <MESSAGE value="添加爆炸声音" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加爆炸声音" />
+    <MESSAGE value="优化美化，用一张图片替代四个方向的图片" />
+    <MESSAGE value="调整坦克自由发射和自由移动的频率，调整爆炸的位置" />
+    <MESSAGE value="调整了好坦克和坏坦克的图片区分" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整了好坦克和坏坦克的图片区分" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
