@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36972c0f-3e83-4887-8a80-c8b8bf42597e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/Bullet$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/Bullet$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/Bullet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/Tank$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/Tank$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/Tank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tank/com/mashibing/tank/Tank.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -169,6 +163,7 @@
       <workItem from="1592315205608" duration="5488000" />
       <workItem from="1592320856481" duration="15922000" />
       <workItem from="1592451112406" duration="22121000" />
+      <workItem from="1592719991952" duration="124000" />
     </task>
     <task id="LOCAL-00001" summary="aa">
       <created>1592316702957</created>
@@ -268,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592493933036</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="优化配置文件控制类为单例模式">
+      <created>1592720087294</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1592720087294</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
